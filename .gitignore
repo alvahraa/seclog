@@ -1,0 +1,26 @@
+# Compiled binaries
+/server
+/mcp-server
+/seclog
+*.exe
+*.test
+*.out
+
+# SQLite data
+*.db
+*.db-shm
+*.db-wal
+/data/
+
+# Node
+node_modules/
+dist/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local-only portable toolchain used for verification
+/.gotool/
