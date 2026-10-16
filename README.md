@@ -4,7 +4,11 @@ Self-hosted dashboard that ingests web access logs, flags suspicious activity, a
 
 ![seclog overview](docs/screenshot.png)
 
-<!-- Add a screenshot at docs/screenshot.png. -->
+| Events | Alerts |
+|---|---|
+| ![Filterable event table](docs/events.png) | ![Alerts raised by the detection rules](docs/alerts.png) |
+
+<sub>Screenshots use the demo data from `scripts/seed.go`.</sub>
 
 ## What it does
 
